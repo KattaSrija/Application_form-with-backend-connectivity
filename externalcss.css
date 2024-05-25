@@ -1,0 +1,69 @@
+input[type="submit"]:hover{
+	background: green;
+	border-color:black ;
+}
+input[type="submit"],input[type="reset"]
+{
+width:50%;
+}
+#gender1{
+    border: 2px solid black;
+    width: 95%;
+    height: 35px;
+   
+    background-color: rgb(252, 253, 254);
+}
+
+.button-container{
+    display:flex;
+    width: 95%;
+    height: 45px;
+    position: center;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+input[type="reset"]:hover{
+	background: red;
+	border-color:black ;
+}
+body{
+	font-size: 18px;
+    font-weight: 600;
+	font-family: system-ui;
+	background: rgb(249, 249, 249);
+}
+form{
+    width: 45%;
+    border: 1px solid black;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    margin: 4% auto;
+    background-color: rgb(74, 152, 212);
+    
+}
+label{
+	display: block;
+	margin-bottom: 5px;
+
+}
+span{
+    font-size: small;
+}
+input[type="text"],input[type="password"],select{
+    width:95%;
+    margin: auto;
+    height: 35px;
+    background-color: rgb(252, 253, 254);
+}
+input[type="submit"]{
+   font-weight: bold;
+   font-size: 18px;
+    background-color: green;
+}
+input[type="reset"]{
+    font-weight: bold;
+    font-size: 18px;
+     background-color: rgb(233, 11, 11);
+ }
